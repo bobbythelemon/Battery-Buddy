@@ -1,0 +1,29 @@
+<!-- BatteryBuddy Sparkle appcast -->
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>BatteryBuddy Changelog</title>
+    <link>https://github.com/bobbythelemon/Battery-Buddy/releases</link>
+    <description>BatteryBuddy release notes</description>
+    <language>en</language>
+
+    <item>
+      <title>BatteryBuddy 1.0.1</title>
+      <sparkle:version>1.0.1</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <description>
+        <![CDATA[
+        <p>BatteryBuddy 1.0.1 with Sparkle 2 automatic updates.</p>
+        ]]>
+      </description>
+      <enclosure
+        url="https://github.com/bobbythelemon/Battery-Buddy/releases/download/v1.0.1/BatteryBuddy-v1.0.1.zip"
+        sparkle:version="1.0.1"
+        length="1211263"
+        type="application/octet-stream"
+        sparkle:edSignature="IzZgh33k7YRzjqPRd/Wwfkw8g2dCiLSMpiaMt0MDTYZjl8+9RglvsmIttiSgmYY7cfLPfFWqvgJQqgvjckqkBA=="/>
+    </item>
+  </channel>
+</rss>
